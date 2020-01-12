@@ -39,7 +39,7 @@ Magisk 的实现方式就像是一种魔法，当被挂载的 Magisk 分区被�
 
 作为一套复杂的文件系统，Magisk 的安装步骤却是十分简单。
 
-在电脑上配置好 [adb 环境 ](https://sspai.com/post/40471)并解开 Bootloader 锁后，如果你的设备有来自 [TWRP](https://twrp.me/Devices/) 的官方支持，只需在打开 USB 调试后将手机与电脑相连，然后打开电脑端的命令行窗口：
+在电脑上配置好[ adb 环境 ](../other/windows-cao-zuo-xi-tong-xia-de-adb-huan-jing-pei-zhi.md)并解开 Bootloader 锁后，如果你的设备有来自 [TWRP](https://twrp.me/Devices/) 的官方支持，只需在打开 USB 调试后将手机与电脑相连，然后打开电脑端的命令行窗口：
 
 1. 执行 `adb reboot bootloader` 进入 Bootloader 界面
 2. 执行 `fastboot boot TWRP.img` 进入临时 TWRP 
